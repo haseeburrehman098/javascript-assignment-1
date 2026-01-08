@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Assignment</title>
+    <link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container1">
+        <div class="header">
+            <h1> JavaScript Coding Assignment</h1>
+            <p>Trainer - SYED MUZAMMIL JAVED</p>
+            <p class="subtitle">Total Marks: 100 | Due Date: 30 December 2025</p>
+        </div>
+
+        <button class="download-btn" onclick="window.print()"><i class="fa-solid fa-download"></i> Download/Print PDF</button>
+
+        <div class="important">
+            <h3>⚠️ IMPORTANT SUBMISSION RULES</h3>
+            <p><strong>1.</strong> Submit your GitHub repository link only</p>
+            <p><strong>2.</strong> Create 2 files: <code>index.html</code> and <code>app.js</code></p>
+            <p><strong>3.</strong> Follow the pattern: <code>// Question 1: ...</code> then your code</p>
+            <p><strong>4.</strong> NO COPYING ALLOWED - Each student must write original code</p>
+            <p><strong>5.</strong> Repository must be PUBLIC on GitHub</p>
+        </div>
+
+        <!-- QUESTIONS SECTION -->
+        <div class="section">
+            <h2>📝 Assignment Questions (25 Total)</h2>
+
+            <div class="question">
+                <h4>Question 1: Variable Declarations and Initialization</h4>
+                <p>Create three variables: <code>productName</code> (string with value "Laptop"), <code>price</code>
+                    (number with value 999.99), and <code>inStock</code> (boolean with value true). Console.log all
+                    three variables in a single statement.</p>
+            </div>
+
+            <div class="question">
+                <h4>Question 2: Mathematical Operations</h4>
+                <p>Calculate and display:</p>
+                <ul>
+                    <li>The remainder when 27 is divided by 4</li>
+                    <li>The square of 12 (using exponentiation operator <code>**</code>)</li>
+                    <li>The result of incrementing 8 by 1 using the <code>++</code> operator</li>
+                    <li>The result of decrementing 15 by 2 using the <code>-=</code> operator</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <h4>Question 3: String Concatenation and Case Conversion</h4>
+                <p>Create two string variables: <code>firstName = "alex"</code> and <code>lastName = "SMITH"</code>.
+                    Concatenate them with a space, then convert the result to proper case (first letter uppercase, rest
+                    lowercase). Also find the total length of the full name.</p>
+            </div>
+
+            <div class="question">
+                <h4>Question 4: if-else Conditional Logic</h4>
+                <p>Write an <code>if-else</code> statement that checks a <code>temperature</code> variable. If
+                    temperature is above 30, console.log "Hot day". If between 20 and 30 (inclusive), console.log
+                    "Pleasant day". Otherwise, console.log "Cold day". Test with temperature = 25.</p>
+            </div>
+
+            <div class="question">
+                <h4>Question 5: Comparison Operators</h4>
+                <p>Create three comparison operations:</p>
+                <ul>
+                    <li>Check if 15 is strictly equal to "15"</li>
+                    <li>Check if 20 is greater than 15 AND less than 25</li>
+                    <li>Check if 10 is not equal to 10 OR 5 is greater than 3</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <h4>Question 6: Array Manipulation - Basics</h4>
+                <p>Create an array <code>colors</code> with values ["red", "green", "blue"]. Then:</p>
+                <ul>
+                    <li>Add "yellow" to the end</li>
+                    <li>Remove the first element</li>
+                    <li>Insert "purple" at index 1</li>
+                    <li>Console.log the final array and its length</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <h4>Question 7: Array Manipulation - splice()</h4>
+                <p>Start with array <code>fruits = ["apple", "banana", "cherry", "date", "elderberry"]</code>. Use
+                    <code>splice()</code> to:
+                </p>
+                <ul>
+                    <li>Remove "cherry"</li>
+                    <li>Replace "date" with "dragonfruit"</li>
+                    <li>Extract the middle 3 elements into a new array</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <h4>Question 8: for Loop - Number Sequence</h4>
+                <p>Write a <code>for</code> loop that prints numbers from 1 to 10, but skips number 5 using
+                    <code>continue</code>, and stops at 8 using <code>break</code>. Also calculate the sum of all
+                    printed numbers.
+                </p>
+            </div>
+
+            <div class="question">
+                <h4>Question 9: Nested for Loop - Pattern</h4>
+                <p>Write nested <code>for</code> loops to create this pattern:</p>
+                <div class="code-example">*<br>**<br>***<br>****<br>*****</div>
+            </div>
+
+            <div class="question">
+                <h4>Question 10: String Methods - Search and Extract</h4>
+                <p>Given <code>text = "The quick brown fox jumps over the lazy dog"</code>:</p>
+                <ul>
+                    <li>Find the position of "fox"</li>
+                    <li>Extract "brown fox" using substring/slice</li>
+                    <li>Check if the text contains "dog"</li>
+                    <li>Get the character at position 10</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <h4>Question 11: String Replacement</h4>
+                <p>Given <code>sentence = "I love JavaScript and JavaScript is awesome"</code>:</p>
+                <ul>
+                    <li>Replace the first "JavaScript" with "coding"</li>
+                    <li>Replace ALL "JavaScript" with "JS"</li>
+                    <li>Replace "awesome" with uppercase "AWESOME"</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <h4>Question 12: Number Rounding and Formatting</h4>
+                <p>Given <code>num = 123.456789</code>:</p>
+                <ul>
+                    <li>Round to 2 decimal places</li>
+                    <li>Round to nearest integer</li>
+                    <li>Get the floor value</li>
+                    <li>Get the ceiling value</li>
+                    <li>Format to show exactly 4 decimal places</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <h4>Question 13: Random Number Generation</h4>
+                <p>Generate:</p>
+                <ul>
+                    <li>A random integer between 1 and 100 (inclusive)</li>
+                    <li>A random decimal between 0 and 1 with 3 decimal places</li>
+                    <li>A random number between 50 and 75 (inclusive)</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <h4>Question 14: Type Conversion</h4>
+                <p>Perform these conversions:</p>
+                <ul>
+                    <li>Convert string "123" to number</li>
+                    <li>Convert string "45.67" to decimal (float)</li>
+                    <li>Convert number 789 to string</li>
+                    <li>Check the type of "true" after converting to boolean</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <h4>Question 15: Date and Time Operations</h4>
+                <p>Create a Date object for the current time and:</p>
+                <ul>
+                    <li>Extract the year, month (0-11), and day</li>
+                    <li>Get the hours in 24-hour format</li>
+                    <li>Format it as "YYYY-MM-DD"</li>
+                    <li>Create a specific date for December 25, 2024</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <h4>Question 16: Function - Basic Calculator</h4>
+                <p>Write a function <code>calculate</code> that takes two numbers and an operator (+, -, *, /) as
+                    parameters and returns the result. Handle division by zero by returning "Error: Division by zero".
+                </p>
+            </div>
+
+            <div class="question">
+                <h4>Question 17: Function - Local vs Global Variables</h4>
+                <p>Create a global variable <code>globalCounter = 0</code>. Write a function
+                    <code>incrementCounter</code> that declares a local variable with the same name and increments it,
+                    while also incrementing the global variable. Show the difference after calling the function twice.
+                </p>
+            </div>
+
+            <div class="question">
+                <h4>Question 18: Switch Statement - Day of Week</h4>
+                <p>Write a <code>switch</code> statement that takes a number (0-6) and returns the corresponding day
+                    name (0=Sunday, 1=Monday, etc.). Include a default case for invalid numbers.</p>
+            </div>
+
+            <div class="question">
+                <h4>Question 19: While Loop - Countdown</h4>
+                <p>Write a <code>while</code> loop that starts at 10 and counts down to 1, printing each number. Then
+                    print "Blast off!". Also calculate the factorial of 5 using a <code>while</code> loop.</p>
+            </div>
+
+            <div class="question">
+                <h4>Question 20: Do while Loop - User Input Simulation</h4>
+                <p>Create a <code>do...while</code> loop that simulates asking for a password. Start with
+                    <code>enteredPassword = ""</code> and keep "asking" (incrementing a counter) until
+                    <code>enteredPassword === "secret123"</code> or 5 attempts are made.
+                </p>
+            </div>
+
+            <div class="question">
+                <h4>Question 21: Arrey Methods with for Loop</h4>
+                <p>Given <code>numbers = [12, 45, 78, 23, 56, 89, 34]</code>:</p>
+                <ul>
+                    <li>Use a <code>for</code> loop to find the maximum value</li>
+                    <li>Use a <code>for</code> loop to calculate the average</li>
+                    <li>Create a new array with only numbers greater than 50</li>
+                    <li>Reverse the array without using <code>reverse()</code> method</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <h4>Question 22: Event Handling Simulation</h4>
+                <p>Create a function <code>handleClick</code> that:</p>
+                <ul>
+                    <li>Gets a value from an input field with id "username"</li>
+                    <li>Checks if it's empty and shows an alert if so</li>
+                    <li>Otherwise, displays "Welcome, [username]!" in a paragraph with id "greeting"</li>
+                    <li>Resets the input field after greeting</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <h4>Question 23: Form Validation Function</h4>
+                <p>Write a function <code>validateForm</code> that:</p>
+                <ul>
+                    <li>Takes email and password as parameters</li>
+                    <li>Returns true if email contains "@" and password length ≥ 8</li>
+                    <li>Otherwise returns false with specific error messages</li>
+                    <li>Test with multiple test cases</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <h4>Question 24: Temperature Converter</h4>
+                <p>Create a function <code>convert Temperature</code> that:</p>
+                <ul>
+                    <li>Takes a temperature and a unit ("C" or "F") as parameters</li>
+                    <li>Converts Celsius to Fahrenheit: (C × 9/5) + 32</li>
+                    <li>Converts Fahrenheit to Celsius: (F - 32) × 5/9</li>
+                    <li>Returns the converted value with 1 decimal place</li>
+                </ul>
+            </div>
+
+            <div class="question">
+                <h4>Question 25: Shopping Cart Array Operations</h4>
+                <p>Create an array <code>cart = []</code> and write these functions:</p>
+                <ul>
+                    <li><code>addItem(name, price)</code>: Adds item object to cart</li>
+                    <li><code>removeItem(name)</code>: Removes item by name</li>
+                    <li><code>calculateTotal()</code>: Returns sum of all item prices</li>
+                    <li><code>applyDiscount(percent)</code>: Applies discount to total</li>
+                    <li><code>listItems()</code>: Returns array of just item names</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="important">
+                <h3>🚨Plagiarism Warning</h3>
+                <p>- Copying from other students will result in zero marks</p>
+                <p>- Similar code will be detected automatically</p>
+                <p>- Both copier and provider will receive zero</p>
+                <p>- Write your own code - learn by doing!</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
